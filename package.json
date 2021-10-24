@@ -1,0 +1,29 @@
+{
+  "name": "zoombie-action",
+  "version": "1.0.0",
+  "description": "GitHub action for the Zoombie Repository",
+  "main": "./Dist/Action.js",
+  "scripts": {
+    "build": "npx ncc build ./Source/Action.js -o Dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiderMath/Zoombie-Action.git"
+  },
+  "author": "RishiMath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiderMath/Zoombie-Action/issues"
+  },
+  "homepage": "https://github.com/SpiderMath/Zoombie-Action#readme",
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "eslint": "^8.1.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "actions-toolkit": "^6.0.1",
+    "axios": "^0.23.0",
+    "common-tags": "^1.8.0"
+  }
+}

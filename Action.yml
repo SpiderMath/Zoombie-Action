@@ -1,0 +1,7 @@
+name: 'Random-Programming-Quote-Action'
+description: 'Puts a random programming Quote in your README'
+author: SpiderMath
+
+runs:
+  using: 'node12'
+  main: 'Dist/Action.js'
