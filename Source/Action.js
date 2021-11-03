@@ -6,10 +6,9 @@ const { default: axios } = require("axios");
 
 async function getText() {
 	const data = await axios.get("46.4.114.111:6999/info");
-	console.log(data);
 
 	return stripIndents`
-		Placeholder for now
+		https://img.shields.io/badge/Unique%20Users%20Today-${data.data.uniqueUserToday}-brightgreen
 	`;
 }
 
